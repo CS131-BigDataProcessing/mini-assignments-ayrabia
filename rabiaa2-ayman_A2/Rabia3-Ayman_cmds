@@ -1,0 +1,16 @@
+  660  grep -i dred goodluck.txt
+  661  grep -P 'Good luck, babe' goodluck.txt
+  662  grep -i 'Good luck,babe' goodluck.txt
+  663  ls
+  664  grep -x "Good luck, babe" goodluck.txt
+  665  grep "Good luck,babe" goodluck.txt
+  666  grep -P 'Good luck,babe' goodluck.txt
+  667  grep 'Good luck,babe' goodluck.txt
+  668   grep -P 'Good luck, babe' goodluck.txt
+  669  vi goodluck.txt
+  670  grep 'Good luck, babe' goodluck.txt
+  671  wc goodluck.txt
+  672  wc goodluck.txt>rabiaa2_a2_counts.txt
+  673  ls
+  674  vi rabiaa2_a2_counts.txt
+  675  vi rabiaa2_a2_counts.txt
