@@ -1,0 +1,16 @@
+ 1051  ls
+ 1052  cd rabiaA_A6
+ 1053  ls
+ 1054  rm airline_inquiry.txt
+ 1055  rm airline_inquiry1.txt
+ 1056  ls
+ 1057  awk -F, '{print $4}' airline_stats.csv| sort > airline_inquiry.txt
+ 1058  ls
+ 1059  vim airline_inquiry.txt
+ 1060  awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort > airline_inquiry.txt
+ 1061  vim airline_inquiry.txt
+ 1062  vim airline_inquiry.txt
+ 1063  vim airline_inquiry.txt
+ 1064  awk -F, -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv | sort > airline_inquiry.txt
+ 1065  ls
+ 1066  vim airline_inquiry.txt
