@@ -1,0 +1,4 @@
+0 0 * * * find /Users/arabia/Documents/log_analysis_project/logs -type f -size +10M -delete > /Users/arabia/Documents/log_analysis_project/cron_logs/filter_file_size.log 2>&1
+0 2 * * * rm -rf /Users/arabia/Documents/GitHub/mini-assignments-ayrabia/temp/*
+0 3 * * 0 tar -czf /Users/arabia/Documents/GitHub/mini-assignments-ayrabia/backups/backup_$(date +\%Y\%m\%d).tar.gz /Users/arabia/Documents/GitHub/mini-assignments-ayrabia
+
