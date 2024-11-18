@@ -1,0 +1,16 @@
+#What other types of tasks could benifit from automation using cron?
+A cron job could potentially alert you about daily or weekly security rissk or software  updates reducing the risk of vulnerabilities or outdated software
+
+It can also be used for cleanup and maintenance, it can be used to store or delete unused files that take up a lot of storage.
+
+#What potential risks are there with poorly managed automated tasks, and how can you avoid them?
+
+There's a possibility of data corruption if multiple tasks are accessing the same resources at the same time, so proper scheduling is crucial
+
+It may be a security rissk as cron would be able to access privaleged information and possibly expose it if it's run with too many privaleges. it may be helpfuil to limit permission to only the necessary and to run regular software and security updates. 
+
+
+Write the command line for sending Disk Usage Report using cron:
+
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" ayman.rabia@sjsu.edu
+

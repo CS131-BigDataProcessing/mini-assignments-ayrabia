@@ -1,0 +1,4 @@
+To remove spaces, I used sed to search and avoid unnecessary white spaces
+For missing values, I replaced them with NA to obtain a clearer vision of the data set.
+For duplicate entries, I used sort -u to ensure there are none.
+To ensure no outliers, I capped the values at 1000 to avoid any extreme values. 
