@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: crime_test
+Version: 1.0.0
+Summary: A package to validate and compute statistics on crime data
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Dist: pandas
